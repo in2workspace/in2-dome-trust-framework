@@ -1,2 +1,5 @@
 # in2-dome-trust-framework
-IN2 DOME Trust Framework
+
+## TODO
+- Implement JSONB support for PostgreSQL
+- Create API for Registers
