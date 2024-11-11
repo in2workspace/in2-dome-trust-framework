@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Trust Framework
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/in2?schema=trust_framework
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    url: jdbc:postgresql://localhost:5432/in2?schema=trust_framework
+    locations: classpath:db/migration
+
+server:
+  port: 8080
