@@ -1,4 +1,4 @@
-package es.in2.trustframework.infrastructure.config;
+package es.in2.trustframework.api.infrastructure.config;
 
 import org.flywaydb.core.Flyway;
 import org.springframework.boot.autoconfigure.flyway.FlywayProperties;

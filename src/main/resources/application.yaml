@@ -10,7 +10,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: jdbc:postgresql://localhost:5432/in2?schema=trust_framework
+    url: jdbc:postgresql://localhost:5432/in2?currentSchema=trust_framework
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
